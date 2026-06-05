@@ -1,7 +1,9 @@
 body {
-  background-image: url("background.png");
+  background-image: url("images/background.png");
   background-size: cover;
   background-position: center;
+  margin: 0;
+  font-family: sans-serif;
 }
 
 .container {
@@ -17,69 +19,84 @@ header {
 }
 
 h1 {
-  color: #333333;
+  color: #333;
 }
 
 .sub-title {
-  color: #777777;
+  color: #777;
 }
 
+/* 共通カード */
 .profile,
 .skills,
 .works,
 .contact {
   background-color: white;
   padding: 20px;
-  padding-bottom: 20px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 h2 {
-  border-bottom: 2px solid #dddddd;
+  border-bottom: 2px solid #ddd;
   padding-bottom: 10px;
 }
 
-ul {
-  padding-left: 20px;
-}
-
-.btn {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-right: 10px;
-
-  transition: all 0.3s;
-
-  /* 影 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.btn:hover {
-  opacity: 0.8;
-}
-
+/* リスト */
 ul {
   list-style: none;
   padding-left: 0;
 }
 
+/* ボタンエリア */
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* 共通ボタン */
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 220px;
+  height: 70px;
+
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* お問い合わせ（立体） */
 .contact-btn {
   background-color: #239b76;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 6px 0 #1c7d60;
 }
 
-.github-btn {
-  background-color: #333333;
-}
-
-.btn:hover {
-  opacity: 0.9;
+.contact-btn:hover {
   transform: translateY(-2px);
 }
 
-.btn:active {
-  transform: translateY(2px);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+.contact-btn:active {
+  transform: translateY(6px);
+  box-shadow: none;
+}
+
+/* GitHub（鮮やかグラデ） */
+.github-btn {
+  background: linear-gradient(45deg, #0078ff, #00c6ff);
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.github-btn:hover {
+  transform: scale(1.05);
+}
+
+.github-btn:active {
+  transform: scale(0.95);
 }
