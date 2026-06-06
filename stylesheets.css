@@ -100,3 +100,21 @@ ul {
 .github-btn:active {
   transform: scale(0.95);
 }
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+}
