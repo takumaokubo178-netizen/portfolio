@@ -26,7 +26,6 @@ h1 {
   color: #777;
 }
 
-/* 共通カード */
 .profile,
 .skills,
 .works,
@@ -42,20 +41,17 @@ h2 {
   padding-bottom: 10px;
 }
 
-/* リスト */
 ul {
   list-style: none;
   padding-left: 0;
 }
 
-/* ボタンエリア */
 .contact {
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 
-/* 共通ボタン */
 .btn {
   display: inline-flex;
   justify-content: center;
@@ -68,7 +64,6 @@ ul {
   transition: 0.3s;
 }
 
-/* お問い合わせ（立体） */
 .contact-btn {
   background-color: #239b76;
   color: white;
@@ -85,7 +80,6 @@ ul {
   box-shadow: none;
 }
 
-/* GitHub（鮮やかグラデ） */
 .github-btn {
   background: linear-gradient(45deg, #0078ff, #00c6ff);
   color: white;
