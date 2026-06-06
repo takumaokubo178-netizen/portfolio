@@ -1,49 +1,50 @@
 body {
-  background-image: url("./images/background.png");
-  background-size: cover;
-  background-position: center;
-  margin: 0;
-  font-family: sans-serif;
+    background-image: url("./images/background.png");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    font-family: sans-serif;
 }
 
 .container {
-  width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
 
 header {
-  text-align: center;
-  padding: 30px 0;
+     text-align: center;
+     padding: 30px 0;
 }
 
 h1 {
-  color: #333;
+    color: #333;
 }
 
 .sub-title {
-  color: #777;
+    color: #666;
+    font-size: 10px;
 }
 
 .profile,
 .skills,
 .works,
 .contact {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 h2 {
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
 }
 
 ul {
-  list-style: none;
-  padding-left: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .contact {
@@ -53,14 +54,14 @@ ul {
 }
 
 .btn {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 
   width: 220px;
   height: 70px;
 
-  text-decoration: none;
+  text-decoration:none;
   transition: 0.3s;
 }
 
@@ -75,7 +76,7 @@ ul {
   transform: translateY(-2px);
 }
 
-.letf-btn:active {
+.left-btn:active {
   transform: translateY(6px);
   box-shadow: none;
 }
