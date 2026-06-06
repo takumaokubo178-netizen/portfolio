@@ -64,34 +64,34 @@ ul {
   transition: 0.3s;
 }
 
-.contact-btn {
+.left-btn {
   background-color: #239b76;
   color: white;
   border-radius: 8px;
   box-shadow: 0 6px 0 #1c7d60;
 }
 
-.contact-btn:hover {
+.left-btn:hover {
   transform: translateY(-2px);
 }
 
-.contact-btn:active {
+.-btn:active {
   transform: translateY(6px);
   box-shadow: none;
 }
 
-.github-btn {
+.right-btn {
   background: linear-gradient(45deg, #0078ff, #00c6ff);
   color: white;
   border-radius: 30px;
   font-weight: bold;
 }
 
-.github-btn:hover {
+.right-btn:hover {
   transform: scale(1.05);
 }
 
-.github-btn:active {
+.right-btn:active {
   transform: scale(0.95);
 }
 
